@@ -575,11 +575,12 @@ header .container {
 	border: 1px solid #ccc;
 	position: relative;
 	height: 823px;
+	float: left;
 }
 
 .content[id="best"] {
 	display: block;
-	float: left;
+
 }
 
 .book:first-child { margin-left: 0.1em; }
@@ -618,6 +619,7 @@ header .container {
 	top: -4px;
 }
 footer {
+	margin-top: 25px;
 	float: left;
 	width: 100%;
 	height: 500px;
@@ -626,6 +628,118 @@ footer {
 }
 
 footer .container {
-	background-color: #202AAc;
 	height: 100%;
+	width: 1005px;
+}
+
+footer .container div {
+	float: left;
+}
+
+.footer-group-text {
+	font-family: SegoeWPLight;
+	color:  #dddddd;
+	font-size: 1.229em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 1.017;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+
+.footer-group-text {
+	position: relative;
+	top: 18px;
+}
+
+div.bio {
+	width: 259px;
+}
+
+div.prof {
+	width: 300px;
+}
+
+div.earth {
+	width: 251px;
+}
+
+div.math {
+	width: 195px;
+}
+
+div.bio .footer-group-text {
+	left: 13px;
+}
+
+footer ul {
+	list-style-type: none;
+	padding: 0;
+	font-family: SegoeWPLight;
+	color: #dddddd;
+	font-size: 0.854em; /* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 1.756; /* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	position: relative;
+	top: 21px;
+}
+
+
+footer div.bio ul {
+	margin-left: 13px;
+}
+
+footer .container .footer-list {
+	position: relative;
+}
+
+footer .container .footer-list::after {
+	content: '';
+	width: 170px;
+	height: 1px;
+	background-color: #dfdfdf;
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+}
+
+.footer-credit {
+	position: relative;
+	top: 66px;
+	left: 254px;
+	text-align: center;
+}
+
+.footer-credit span {
+	font-family: SegoeWPLight;
+	color:  #dddddd;
+	font-size: 1.229em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 1.22;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.footer-card {
+	position: relative;
+	top: 10px;
+	left: 186px;
+}
+
+footer .big-line {
+	content: '';
+	width: 100%;
+	height: 1px;;
+	background-image: url("img/big-line.png");
+	position: relative;
+	top: -50px;
+}
+
+footer .law {
+	font-family: SegoeWPLight;
+	color:  #dddddd;
+	font-size: 0.979em;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 1.532;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	position: relative;
+	top: -40px;
 }
